@@ -6,7 +6,7 @@ We wanted a quick and easy way to get an OPA Hub up and running for DEVELOPMENT 
 We use this to test new versions of OPA and to develop against locally.  No need for someone to provision instances to developers.  No need for developers to have an internet connection.  Once you have Vagrant and VirtualBox installed, creating a new OPA Hub takes a couple of minutes.
 
 ### How does it work?
-Vagrant is a tool for configuring and controlling virtual machines.  This particular configuration has been tested against VirtualBox, but Vagrant supports others including VMWare, Hyper-V, and Docker.  Vagrant creates a virtual machine, installs Tomcat and MySQL, then configures and installs OPA.  It is configured to expose Feel free to raise any issues [here](https://github.com/start-point-industries/opa-hub-vagrant/issues).
+Vagrant is a tool for configuring and controlling virtual machines.  This particular configuration has been tested against VirtualBox, but Vagrant supports others including VMWare, Hyper-V, and Docker.  Vagrant creates a virtual machine, installs Tomcat and MySQL, then configures and installs OPA.  Feel free to raise any issues [here](https://github.com/start-point-industries/opa-hub-vagrant/issues).
 
 Note: The configuration forwards the VM's Tomcat port 8080 to the host's port 8787.  This can be configured in the Vagrantfile, if your port 8787 is already in use.  
 
